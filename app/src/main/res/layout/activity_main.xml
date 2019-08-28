@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/blue_wallpaperfinal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="145dp"
+        android:fontFamily="@font/lucidagrande_normal"
+        android:text="My Performance"
+        android:textColor="#ECB00B"
+        android:textSize="39.06sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="30.05dp"
+        android:layout_height="24.79dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/menu_g"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/news_crawlerg"
+        android:layout_width="600.94dp"
+        android:layout_height="28.50dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/news_crawler_g"
+        android:text="News Crawler"
+        android:textColor="#ECB00B"
+        android:textSize="17.28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/unhighlighted_delivered_tab"
+        android:layout_width="112.68dp"
+        android:layout_height="36.06dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="127dp"
+        android:background="@drawable/un_highlighted_delivered_tab"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/highlighted_written_tab"
+        android:layout_width="580dp"
+        android:layout_height="36.06dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/highlighted_written_tab_p"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/protection_plan_pp"
+        android:layout_width="138.97dp"
+        android:layout_height="15.77dp"
+        android:layout_marginStart="384dp"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/lucidagrande_bold"
+        android:text="PROTECTION PLAN"
+        android:textColor="#ffffff"
+        android:textSize="13.52sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/all_sales_pp2"
+        android:layout_width="77.37dp"
+        android:layout_height="15.77dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="171dp"
+        android:fontFamily="@font/lucidagrande_bold"
+        android:text="ALL SALES"
+        android:textColor="#ffffff"
+        android:textSize="13.52sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/performance_color_logo"
+        android:layout_width="262.69dp"
+        android:layout_height="128.45dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/performance_color_logo_pp" />
+
+    <ImageView
+        android:id="@+id/performance_color_logo2"
+        android:layout_width="262.69dp"
+        android:layout_height="128.45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/performance_color_logo_pp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="580.66dp"
+        android:layout_height="59.34dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/header_tab_pp" />
+
+    <Button
+        android:id="@+id/dropdown_triangle"
+        android:layout_width="10.52dp"
+        android:layout_height="4.51dp"
+        android:layout_marginStart="384dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/dropdown_triangle"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dropdown_triangle7"
+        android:layout_width="10.52dp"
+        android:layout_height="4.51dp"
+        android:layout_marginStart="420dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/dropdown_triangle"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dropdown_triangle4"
+        android:layout_width="10.52dp"
+        android:layout_height="4.51dp"
+        android:layout_marginStart="571dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/dropdown_triangle"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dropdown_triangle6"
+        android:layout_width="10.52dp"
+        android:layout_height="4.51dp"
+        android:layout_marginStart="520dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/dropdown_triangle"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dropdown_triangle3"
+        android:layout_width="10.52dp"
+        android:layout_height="4.51dp"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/dropdown_triangle"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dropdown_triangle2"
+        android:layout_width="10.52dp"
+        android:layout_height="4.51dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/dropdown_triangle"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="581.41dp"
+        android:layout_height="374.08dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="405dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empty_performance_fields_pp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="501.78dp"
+        android:layout_height="127.709dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="776dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/instructions_pp" />
+
+    <Button
+        android:id="@+id/year_selected"
+        android:layout_width="112.58dp"
+        android:layout_height="33.05dp"
+        android:layout_marginStart="476dp"
+        android:layout_marginTop="900dp"
+        android:background="@drawable/unselected_year_button_pp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/month_selected4"
+        android:layout_width="112.58dp"
+        android:layout_height="33.05dp"
+        android:layout_marginStart="326dp"
+        android:layout_marginTop="900dp"
+        android:background="@drawable/unselected_month_button_pp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/week_selected3"
+        android:layout_width="112.58dp"
+        android:layout_height="33.05dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="900dp"
+        android:background="@drawable/unselected_week_button_pp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/today_selected2"
+        android:layout_width="112.58dp"
+        android:layout_height="33.05dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="900dp"
+        android:background="@drawable/selected_today_button_pp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="31.55dp"
+        android:layout_height="28.54dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/group_chat_icon_pp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
